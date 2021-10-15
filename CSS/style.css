@@ -116,7 +116,7 @@ header .container
     color: var(--mainColor);
     font-size: 1.55rem;
     line-height: 1.2;
-    font-weight: 700;
+    font-weight: bolder;
 }
 
 
@@ -194,24 +194,20 @@ header .container
     color: var(--letterColor);
     margin-left: 4.5rem;
     display: inline-block;
-    transition: 0.3s;
-    font-weight: 900;
+    transition: 0.2s;
+    font-weight: bolder;
 }
 
 
 ul li:nth-child(4) a
 {
-    display: inline-block;
     color: var(--mainColor);
-    font-weight: 900;
-    transition: 0.3s;
 }
 
 
 .contact:hover
 {
     color: var(--letterColor) !important;
-    transform: scale(1) !important;
 }
 
 .menu a:hover
@@ -251,7 +247,9 @@ span
     background-color: var(--buttonColor);
     border-radius: 42px 42px 0 42px;
     margin-bottom: 10px;
+    transition: 0.2s;
 }
+
 
 .showcase-area .btn 
 {
@@ -260,11 +258,17 @@ span
     font-size: 25px;
 }
 
+.showcase-area .btn:hover
+{
+    background: #F7B918;
+    transform: scale(1.15);
+}
+
 .person
 {
     width: 110%;
     transform: translate(15%, 25px);
-    margin-bottom: -170px;
+    margin-bottom: -200px;
     transform: scale(1.25);
 }
 
@@ -272,8 +276,8 @@ span
 {
     display: inline-block;
     border: none;
-    background: var(--letterColor);
-    color: var(--mainColor);
+    background: var(--mainColor);
+    color: var(--letterColor);
     outline: none;
     cursor: pointer;
     height: 39px;
@@ -290,8 +294,8 @@ span
 
 .toggle-btn:hover
 {
-    background: var(--hoverColor);
-    color: var(--letterColor);
+    background: var(--letterColor);
+    color: var(--mainColor);
 }
 
 .big-wrapper.light .toggle-btn i:first-child
