@@ -117,6 +117,13 @@ header .container
     font-size: 1.55rem;
     line-height: 1.2;
     font-weight: bolder;
+    transition: 0.1s;
+}
+
+.logo h1:hover
+{
+    color: var(--letterColor);
+    transform: scale(1.05);
 }
 
 
