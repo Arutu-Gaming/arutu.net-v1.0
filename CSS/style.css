@@ -9,7 +9,7 @@
     --letterColor : #FFF6DD;
     --hoverColor: #e4aa17;
     --backgroundColor: url(img/what-the-hex-dark\ 2.svg);;
-    --buttonColor: #F0542E;
+    --buttonColor: #C93305;
 }
 
 .light
@@ -104,28 +104,21 @@ header .container
 }
 
 
-.logo img
+/* .logo img
 {
     width: 40px;
     margin-right: .6rem;
     margin-top: -0.6rem;
-}
+} */
 
 .logo h1
 {
     color: var(--mainColor);
-    font-size: 1.55rem;
+    font-size: 1.7rem;
     line-height: 1.2;
     font-weight: bolder;
     transition: 0.1s;
 }
-
-.logo h1:hover
-{
-    color: var(--letterColor);
-    transform: scale(1.05);
-}
-
 
 .hamburger-menu 
 {
@@ -201,7 +194,7 @@ header .container
     color: var(--letterColor);
     margin-left: 4.5rem;
     display: inline-block;
-    transition: 0.2s;
+    transition: 0.1s;
     font-weight: bolder;
 }
 
@@ -220,7 +213,6 @@ ul li:nth-child(4) a
 .menu a:hover
 {
     color: var(--hoverColor);
-    transform: scale(1.05);
 }
 
 .showcase-area .container
@@ -249,10 +241,10 @@ span
 .btn 
 {
     display: inline-block;
-    padding: 0.4rem 2.3rem;
+    padding: 0.15rem 1.7rem;
     color: var(--letterColor);
     background-color: var(--buttonColor);
-    border-radius: 42px 42px 0 42px;
+    border-radius: 50px 50px 0 50px;
     margin-bottom: 10px;
     transition: 0.2s;
 }
