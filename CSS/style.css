@@ -416,6 +416,7 @@ span
     .person {
       width: 110%;
       transform: none;
+      margin-bottom: -112px;
     }
   
     .logo h1 {
@@ -430,6 +431,11 @@ span
   
     .big-title {
       font-size: 1rem;
+    }
+
+    .person
+    {
+        margin-bottom: -112px;
     }
   
     
