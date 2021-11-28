@@ -7,6 +7,7 @@
 {
     --mainColor: #F7B918;
     --letterColor : #FFF6DD;
+    --letterColorSec : #FFF;
     --hoverColor: #e4aa17;
     --backgroundColor: url(img/what-the-hex-dark\ 2.svg);;
     --buttonColor: #C93305;
@@ -16,6 +17,7 @@
 {
     --mainColor: #F0542E;
     --letterColor : #45424b;
+    --letterColorSec : #45424b;
     --hoverColor: #F0542E;
     --backgroundColor: #ffe499;
     --buttonColor: #F0542E;
@@ -215,13 +217,11 @@ ul li:nth-child(4) a
     color: var(--hoverColor);
 }
 
-/* .showcase-area .container
+.showcase-area .container
 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
-} */
+}
 
 .big-title 
 {
@@ -236,6 +236,15 @@ ul li:nth-child(4) a
 span
 {
     border-bottom: 4px solid var(--mainColor);
+}
+
+.cta p
+{
+    color: var(--letterColorSec);
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-top: 24px;
 }
 
 .btn 
@@ -263,13 +272,7 @@ span
     transform: scale(1.15);
 }
 
-.person
-{
-    width: 110%;
-    transform: translate(15%, 25px);
-    margin-bottom: -200px;
-    transform: scale(1.25);
-}
+
 
 .toggle-btn
 {
