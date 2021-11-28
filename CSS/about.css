@@ -3,6 +3,13 @@
     src: url(fonts/Quicksand-Regular.ttf);
 }
 
+@font-face {
+    font-family: QuicksandBold;
+    src: url(fonts/Quicksand-Bold.ttf);
+}
+
+
+
 .dark
 {
     --mainColor: #F7B918;
@@ -225,12 +232,15 @@ ul li:nth-child(4) a
 
 .big-title 
 {
-    font-size: 1.4rem;
+    margin-top: 100px;
+    font-family: QuicksandBold;
+    font-size: 1.8rem;
     letter-spacing: 2px;
     color: var(--letterColor);
     text-transform: capitalize;
     line-height: 1.6;
     font-weight: bolder;
+    margin-bottom: 80px;
 }
 
 span
@@ -241,38 +251,83 @@ span
 .cta p
 {
     color: var(--letterColorSec);
-    font-weight: 400;
     font-size: 1.3rem;
     line-height: 1.6;
     margin-top: 24px;
 }
 
-.btn 
+.cta p:nth-child(2)
 {
-    display: inline-block;
-    padding: 0.15rem 1.7rem;
+    margin-bottom: 220px;
+
+}
+
+.team .title h1
+{
+    font-family: QuicksandBold;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
     color: var(--letterColor);
-    background-color: var(--buttonColor);
-    border-radius: 50px 50px 0 50px;
-    margin-bottom: 10px;
-    transition: 0.2s;
+    text-transform: capitalize;
+    line-height: 1.6;
+    font-weight: bolder;
+    margin-bottom: 120px;
 }
 
-
-.showcase-area .btn 
+.team .pictures
 {
-    margin-top: 50px;
-    font-weight: 999;
-    font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
 }
 
-.showcase-area .btn:hover
+.arutu-plus .title h1
 {
-    background: #F7B918;
-    transform: scale(1.15);
+    margin-top: 100px;
+    font-family: QuicksandBold;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    color: var(--letterColor);
+    text-transform: capitalize;
+    line-height: 1.6;
+    font-weight: bolder;
+    margin-bottom: 20px;
 }
 
+.arutu-plus .title p
+{
+    color: var(--letterColor);
+    margin-bottom: 80px;
+    font-size: 1.2rem;
 
+}
+
+.arutu-plus .arutu-plus-members
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.arutu-plus .arutu-plus-members h1
+{
+    color: var(--mainColor);
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.arutu-plus .arutu-plus-members p
+{
+    color: var(--letterColor);
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    color: var(--letterColorSec);
+
+}
 
 .toggle-btn
 {
