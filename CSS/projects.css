@@ -261,46 +261,190 @@ span
 
 
 
-.projects
+.projects .project-nduzi
 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
-    align-items: center;
-    justify-content: center;
-    transition: .3s;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.projects .project-cow
+{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+
+}
+
+.projects .project-arutu
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+
+}
+
+.projects .project-otaku
+{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+
 }
 
 .projects .left .pic
 {
-    /* width: 400px; */
+    width: 364px;
+    height: 364px;
+    left: 588px;
+    top: 490px;
 }
+
+.projects .left .pic2
+{
+    width: 364px;
+    height: 364px;
+    left: 588px;
+    top: 490px;
+}
+
+.projects .right .pic3
+{
+    width: 364px;
+    height: 364px;
+    left: 588px;
+    top: 490px;
+}
+
+.projects .right .pic4
+{
+    width: 364px;
+    height: 364px;
+    left: 588px;
+    top: 490px;
+}
+
 
 .projects .left .conqueror
 {
+    width: 840.795px;
+    height: 364px;
+    left: 614px;
+    top: 490px;
     background: #FFF6DD;
     color: var(--mainColor);
 }
 
 .projects .left .otaku
 {
+    width: 840.795px;
+    height: 364px;
+    left: 614px;
+    top: 490px;
     background: #020202;
     color: var(--mainColor);
 }
 
 .projects .right .nduzi
 {
+    width: 840.795px;
+    height: 364px;
+    left: 614px;
+    top: 490px;
     background: #C93305;
     color: var(--letterColor);
 }
 
+
 .projects .right .arutu-net
 {
+    width: 840.795px;
+    height: 364px;
+    left: 614px;
+    top: 490px;
     background: var(--mainColor);
     color: #020202;
 }
 
+.projects .right .nduzi h1 
+{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 190px;
+    font-family: QuicksandBold;
+    font-size: 45px;
+}
 
+.projects .right .nduzi p
+{
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: justify;
+}
+
+.projects .left .conqueror h1 
+{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 690px;
+    font-family: QuicksandBold;
+    font-size: 45px;
+}
+
+.projects .left .conqueror p
+{
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: justify;
+}
+
+.projects .right .arutu-net h1 
+{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 190px;
+    font-family: QuicksandBold;
+    font-size: 45px;
+}
+
+.projects .right .arutu-net p
+{
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: justify;
+}
+
+.projects .left .otaku h1 
+{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 690px;
+    font-family: QuicksandBold;
+    font-size: 45px;
+}
+
+.projects .left .otaku p
+{
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: justify;
+}
 
 .toggle-btn
 {
